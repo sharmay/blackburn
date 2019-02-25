@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="/css/blackburn.css">
 
   <!-- Icons -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
@@ -41,10 +41,10 @@
   {{ end }}
 
   {{ with .Site.Params.highlightjs }}
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{ . }}.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/{{ . }}.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
   {{ range $.Site.Params.highlightjs_extra_languages }}
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/{{ . }}.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/languages/{{ . }}.min.js"></script>
   {{ end }}
   <script>hljs.initHighlightingOnLoad();</script>
   {{ end }}
