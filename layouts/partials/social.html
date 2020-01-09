@@ -4,7 +4,7 @@
     {{ if .OutputFormats.Get "RSS" }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href='{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}'><i
-          class="fa fa-rss fa-fw"></i>RSS</a>
+          class="fas fa-rss-square"></i>RSS</a>
     </li>
     {{ end }}
 
@@ -12,7 +12,7 @@
 
     {{ with .Site.Social.twitter }}
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/{{ . }}" rel="me" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+      <a class="pure-menu-link" href="https://twitter.com/{{ . }}" rel="me" target="_blank"><i class="fab fa-twitter-square"></i>Twitter</a>
     </li>
     {{ end }}
 
@@ -100,7 +100,7 @@
 
     {{ with .Site.Social.linkedin }}
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://linkedin.com/in/{{ . }}" rel="me" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+      <a class="pure-menu-link" href="https://linkedin.com/in/{{ . }}" rel="me" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
     </li>
     {{ end }}
 
@@ -114,13 +114,13 @@
 
     {{ with .Site.Social.reddit }}
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://reddit.com/user/{{ . }}" rel="me" target="_blank"><i class="fa fa-reddit-square fa-fw"></i>Reddit</a>
+      <a class="pure-menu-link" href="https://reddit.com/user/{{ . }}" rel="me" target="_blank"><i class="fab fa-reddit-square"></i>Reddit</a>
     </li>
     {{ end }}
 
     {{ with .Site.Social.hackernews }}
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://news.ycombinator.com/user?id={{ . }}" rel="me" target="_blank"><i class="fa fa-hacker-news fa-fw"></i>Hacker News</a>
+      <a class="pure-menu-link" href="https://news.ycombinator.com/user?id={{ . }}" rel="me" target="_blank"><i class="fab fa-hacker-news"></i>Hacker News</a>
     </li>
     {{ end }}
 
@@ -128,19 +128,19 @@
 
     {{ with .Site.Social.github }}
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://github.com/{{ . }}" rel="me" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+      <a class="pure-menu-link" href="https://github.com/{{ . }}" rel="me" target="_blank"><i class="fab fa-github-square"></i>GitHub</a>
     </li>
     {{ end }}
 
     {{ with .Site.Social.gitlab }}
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://gitlab.com/{{ . }}" rel="me" target="_blank"><i class="fa fa-gitlab fa-fw"></i>GitLab</a>
+      <a class="pure-menu-link" href="https://gitlab.com/{{ . }}" rel="me" target="_blank"><i class="fab fa-gitlab"></i>GitLab</a>
     </li>
     {{ end }}
 
     {{ with .Site.Social.bitbucket }}
     <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://bitbucket.org/{{ . }}" rel="me" target="_blank"><i class="fa fa-bitbucket-square fa-fw"></i>Bitbucket</a>
+      <a class="pure-menu-link" href="https://bitbucket.org/{{ . }}" rel="me" target="_blank"><i class="fab fa-bitbucket-square"></i>Bitbucket</a>
     </li>
     {{ end }}
 
