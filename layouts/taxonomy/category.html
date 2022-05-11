@@ -5,7 +5,7 @@
 </div>
 
 <div class="content">
-  {{ range .Site.RegularPages }}
+  {{ range $i, $item := (where .Site.RegularPages  "Params.categories" "intersect" (slice .Params.title )) }}
     {{ .Render "summary"}}
   {{ end }}
 </div>
