@@ -20,6 +20,14 @@ paginate = 10
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006, 15:04"
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  twitter = "*"
+  facebook = "*"
+  instagram = "*"
+  github = "yoshiharuyamashita"
+  stackoverflow = "*"
+  linkedin = "*"
 
 [menu]
   # Shown in the side menu.
@@ -47,12 +55,3 @@ paginate = 10
     weight = 4
     url = "/contact/"
 
-[social]
-  # Link your social networking accouns to the side menu
-  # by entering your username or ID.
-  twitter = "*"
-  facebook = "*"
-  instagram = "*"
-  github = "yoshiharuyamashita"
-  stackoverflow = "*"
-  linkedin = "*"

@@ -10,37 +10,37 @@
 
     <!-- SNS microblogging -->
 
-    {{ with .Site.Social.twitter }}
+    {{ with .Site.Params.twitter }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://twitter.com/{{ . }}" rel="me" target="_blank"><i class="fab fa-twitter-square"></i>Twitter</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.gnusocial }}
+    {{ with .Site.Params.gnusocial }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="{{ . }}" rel="me" target="_blank"><i class="fa fa-comment fa-fw"></i>GNU social</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.facebook }}
+    {{ with .Site.Params.facebook }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://facebook.com/{{ . }}" rel="me" target="_blank"><i class="fa fa-facebook-square fa-fw"></i>Facebook</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.googleplus }}
+    {{ with .Site.Params.googleplus }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://plus.google.com/+{{ . }}" rel="me" target="_blank"><i class="fa fa-google-plus-square fa-fw"></i>Google+</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.weibo }}
+    {{ with .Site.Params.weibo }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="http://weibo.com/{{ . }}" rel="me" target="_blank"><i class="fa fa-weibo fa-fw"></i>Weibo</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.tumblr }}
+    {{ with .Site.Params.tumblr }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://{{ . }}.tumblr.com/" rel="me" target="_blank"><i class="fa fa-tumblr-square fa-fw"></i>Tumblr</a>
     </li>
@@ -48,49 +48,49 @@
 
     <!-- SNS photo/video sharing -->
 
-    {{ with .Site.Social.instagram }}
+    {{ with .Site.Params.instagram }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://instagram.com/{{ . }}" rel="me" target="_blank"><i class="fa fa-instagram fa-fw"></i>Instagram</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.flickr }}
+    {{ with .Site.Params.flickr }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://flickr.com/photos/{{ . }}" rel="me" target="_blank"><i class="fa fa-flickr fa-fw"></i>Flickr</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.photo500px }}
+    {{ with .Site.Params.photo500px }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://500px.com/{{ . }}" rel="me" target="_blank"><i class="fa fa-500px fa-fw"></i>500px</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.pinterest }}
+    {{ with .Site.Params.pinterest }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://pinterest.com/{{ . }}" rel="me" target="_blank"><i class="fa fa-pinterest-square fa-fw"></i>Pinterest</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.youtube }}
+    {{ with .Site.Params.youtube }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://youtube.com/user/{{ . }}" rel="me" target="_blank"><i class="fa fa-youtube-square fa-fw"></i>YouTube</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.vimeo }}
+    {{ with .Site.Params.vimeo }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://vimeo.com/{{ . }}" rel="me" target="_blank"><i class="fa fa-vimeo-square fa-fw"></i>Vimeo</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.vine }}
+    {{ with .Site.Params.vine }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://vine.co/{{ . }}" rel="me" target="_blank"><i class="fa fa-vine fa-fw"></i>Vine</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.slideshare }}
+    {{ with .Site.Params.slideshare }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="http://slideshare.net/{{ . }}" rel="me" target="_blank"><i class="fa fa-slideshare fa-fw"></i>SlideShare</a>
     </li>
@@ -98,13 +98,13 @@
 
     <!-- SNS career oriented -->
 
-    {{ with .Site.Social.linkedin }}
+    {{ with .Site.Params.linkedin }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://linkedin.com/in/{{ . }}" rel="me" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.xing }}
+    {{ with .Site.Params.xing }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://xing.com/profile/{{ . }}" rel="me" target="_blank"><i class="fa fa-xing-square fa-fw"></i>Xing</a>
     </li>
@@ -112,13 +112,13 @@
 
     <!-- SNS news -->
 
-    {{ with .Site.Social.reddit }}
+    {{ with .Site.Params.reddit }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://reddit.com/user/{{ . }}" rel="me" target="_blank"><i class="fab fa-reddit-square"></i>Reddit</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.hackernews }}
+    {{ with .Site.Params.hackernews }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://news.ycombinator.com/user?id={{ . }}" rel="me" target="_blank"><i class="fab fa-hacker-news"></i>Hacker News</a>
     </li>
@@ -126,31 +126,31 @@
 
     <!-- Techie -->
 
-    {{ with .Site.Social.github }}
+    {{ with .Site.Params.github }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://github.com/{{ . }}" rel="me" target="_blank"><i class="fab fa-github-square"></i>GitHub</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.gitlab }}
+    {{ with .Site.Params.gitlab }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://gitlab.com/{{ . }}" rel="me" target="_blank"><i class="fab fa-gitlab"></i>GitLab</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.bitbucket }}
+    {{ with .Site.Params.bitbucket }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://bitbucket.org/{{ . }}" rel="me" target="_blank"><i class="fab fa-bitbucket-square"></i>Bitbucket</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.stackoverflow }}
+    {{ with .Site.Params.stackoverflow }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://stackoverflow.com/users/{{ . }}" rel="me" target="_blank"><i class="fa fa-stack-overflow fa-fw"></i>Stack Overflow</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.serverfault }}
+    {{ with .Site.Params.serverfault }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://serverfault.com/users/{{ . }}" rel="me" target="_blank"><i class="fa fa-server fa-fw"></i>Server Fault</a>
     </li>
@@ -158,13 +158,13 @@
 
     <!-- Gaming -->
 
-    {{ with .Site.Social.steam }}
+    {{ with .Site.Params.steam }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://steamcommunity.com/id/{{ . }}" rel="me" target="_blank"><i class="fa fa-steam-square fa-fw"></i>Steam</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.mobygames }}
+    {{ with .Site.Params.mobygames }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://www.mobygames.com/developer/sheet/view/developerId,{{ . }}" rel="me" target="_blank"><i class="fa fa-gamepad fa-fw"></i>MobyGames</a>
     </li>
@@ -172,13 +172,13 @@
 
     <!-- Music -->
 
-    {{ with .Site.Social.lastfm }}
+    {{ with .Site.Params.lastfm }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="http://last.fm/user/{{ . }}" rel="me" target="_blank"><i class="fa fa-lastfm-square fa-fw"></i>Last.fm</a>
     </li>
     {{ end }}
 
-    {{ with .Site.Social.discogs }}
+    {{ with .Site.Params.discogs }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://www.discogs.com/user/{{ . }}" rel="me" target="_blank"><i class="fa fa-music fa-fw"></i>Discogs</a>
     </li>
@@ -186,7 +186,7 @@
 
     <!-- Other -->
 
-    {{ with .Site.Social.keybase }}
+    {{ with .Site.Params.keybase }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://keybase.io/{{ . }}" rel="me" target="_blank"><i class="fa fa-key fa-fw"></i>Keybase</a>
     </li>
